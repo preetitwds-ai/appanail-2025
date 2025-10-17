@@ -1,0 +1,210 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  background: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background: #00695c;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.featured-img {
+  width: 100%;
+  max-width: 600px;
+  display: block ;
+  place-items: center; 
+  margin: 0;
+  border-radius: 10px;
+
+}
+
+.responsive-text {
+    max-width: 900px;
+    margin: 15px auto;
+    padding: 15px;
+    text-align: justify;
+    background: #ffffff;
+    border-radius: 80px;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+
+section.content {
+  padding: 15px;
+  max-width: 900px;
+  margin: 15px auto;
+  background: #ffffff;
+  border-radius: 80px;
+  text-align: justify;
+  font-size: 18px;
+  line-height: 1.6;
+  
+}
+
+
+h2 {
+  color: #004d40;
+}
+
+a {
+  color: #00796b;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+.faq-section {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    padding: 30px;
+  }
+
+  .faq-section h2 {
+    text-align: center;
+    color: #1a202c;
+    margin-bottom: 25px;
+    font-size: 28px;
+  }
+
+  .faq-item {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e2e8f0;
+    padding-bottom: 15px;
+  }
+
+  .faq-item:last-child {
+    border-bottom: none;
+  }
+
+  .faq-question {
+    font-weight: 600;
+    color: #2b6cb0;
+    margin-bottom: 8px;
+  }
+
+  .faq-answer {
+    color: #4a5568;
+    line-height: 1.6;
+  }
+
+  /* Hover and animation */
+  .faq-item:hover {
+    background: #f1f5f9;
+    border-radius: 8px;
+    transition: 0.3s ease;
+    padding: 15px;
+  }
+
+  @media (max-width: 600px) {
+    .faq-section {
+      padding: 20px;
+    }
+    .faq-section h2 {
+      font-size: 24px;
+    }
+  }
+
+ section.button {
+    text-align: center;
+    margin: 50px 0;
+  }
+
+  /* Button styling */
+  .button a {
+    background: rgb(241, 196, 15);
+    border-radius: 40px;
+    color: black;
+    font-size: 28px;
+    padding: 18px 60px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    transition: all 0.3s ease;
+  }
+
+  /* Hover effect */
+  .button a:hover {
+    background: orange;
+    color: white;
+    transform: scale(1.08);
+  }
+
+.image-section {
+  text-align: center;        
+  margin: 50px 0;            
+}
+
+.image-section img {
+  max-width: 100%;           
+  height: auto;              
+  border-radius: 12px;       
+  transition: transform 0.3s ease;
+  cursor: pointer;           
+}
+
+.image-section img:hover {
+  transform: scale(1.05);    
+}
+
+/* From Uiverse.io by Mike11jr */ 
+.btn {
+ padding: 18px 60px;
+ background: none;
+ border: 2px solid #fff;
+ font-size: 15px;
+ color: #131313;
+ cursor: pointer;
+ position: relative;
+ overflow: hidden;
+ transition: all 0.3s;
+ border-radius: 12px;
+ background-color: #ecd448;
+ font-weight: bolder;
+ box-shadow: 0 2px 0 2px #000;
+}
+
+.btn:before {
+ content: "";
+ position: absolute;
+ width: 100px;
+ height: 120%;
+ background-color: #ff6700;
+ top: 50%;
+ transform: skewX(30deg) translate(-150%, -50%);
+ transition: all 0.5s;
+}
+
+.btn:hover {
+ background-color: #4cc9f0;
+ color: #fff;
+ box-shadow: 0 2px 0 2px #0d3b66;
+}
+
+.btn:hover::before {
+ transform: skewX(30deg) translate(150%, -50%);
+ transition-delay: 0.1s;
+}
+
+.btn:active {
+ transform: scale(0.9);
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #004d40;
+  color: #fff;
+  font-size: 14px;
+}
